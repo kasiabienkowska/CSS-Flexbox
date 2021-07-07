@@ -17,13 +17,15 @@ body{
     display: flex;
     background: white;
     flex-wrap: wrap;  
-    flex-flow: row-reverse;
-    justify-content: flex-start;
+    flex-flow: column;
     height: 800px;
+  align-items: center; /*apply to cross axis*/
+  justify-content: ; /*apply to main axis*/
+
 }
 
 .box{
-    height: 100px;
+    width: 100px;
     flex: 0 0 100px;
 /*flex zastępuje - pierwsza wartość flex grow, druga wartosc flex shrink, trzecia wartosc flex basis*/
 
