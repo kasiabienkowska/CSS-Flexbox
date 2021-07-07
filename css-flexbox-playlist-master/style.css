@@ -15,12 +15,14 @@ body{
 
 .flex-container{
     display: flex;
-    background: white;  
+    background: white;
+    flex-wrap: wrap-reverse;  
 }
 
 .box{
     height: 100px;
-    min-width: 320px;
+    min-width: 200px;
+    flex-grow: 1;
 }
 
 .one{
