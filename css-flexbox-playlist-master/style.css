@@ -9,34 +9,36 @@ body{
 
 .wrapper{
     width: 100%;
-    max-width: 960px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
 .flex-container{
     display: flex;
     background: white;
-    flex-wrap: wrap-reverse;  
+    flex-wrap: wrap;  
 }
 
 .box{
     height: 100px;
-    min-width: 200px;
-    flex-grow: 1;
+    flex: 1 0 200px;
+/*flex zastępuje - pierwsza wartość flex grow, druga wartosc flex shrink, trzecia wartosc flex basis*/
+
 }
 
 .one{
     background: red;
-    flex-shrink: 1;
+
 }
 .two{
 
-background: blue;
-flex-shrink: 2;
+    background: blue;
+
 }
 
 .three{
     background: green;
-    flex-shrink: 6;
+
+
 }
 
